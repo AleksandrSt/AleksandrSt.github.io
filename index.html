@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandr Statkevic | CV</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #101827;
+            color: #e5e7eb;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 50px auto;
+            padding: 30px;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: #1c293b;
+            padding: 35px;
+            border-radius: 18px;
+            border: 1px solid #30445f;
+        }
+
+        .hero img {
+            width: 220px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 14px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #60a5fa;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #a5b4fc;
+            font-size: 18px;
+            margin-bottom: 18px;
+        }
+
+        section {
+            margin-top: 30px;
+            background: #1c293b;
+            padding: 25px;
+            border-radius: 14px;
+            border: 1px solid #30445f;
+        }
+
+        h2 {
+            color: #60a5fa;
+            margin-bottom: 15px;
+            font-size: 23px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .skill {
+            background: #263c59;
+            color: #bfdbfe;
+            padding: 8px 16px;
+            border-radius: 20px;
+        }
+
+        .project {
+            margin-bottom: 18px;
+        }
+
+        .project h3 {
+            color: #f9fafb;
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #60a5fa;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            color: #8493a8;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 650px) {
+            .container {
+                margin: 15px auto;
+                padding: 15px;
+            }
+
+            .hero {
+                flex-direction: column;
+                text-align: center;
+                padding: 20px;
+            }
+
+            .hero img {
+                width: 180px;
+                height: 210px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="hero">
+        <img src="classroom.jpg" alt="My photograph taken during the laboratory session">
+
+        <div>
+            <h1>Aleksandr Statkevic</h1>
+            <p class="subtitle">AI Systems Student | Aspiring Developer</p>
+
+            <p>
+                I am an AI Systems student at VILNIUS TECH,
+                interested in programming, artificial intelligence
+                and software development.
+                I enjoy learning new technologies and solving
+                practical problems through code.
+            </p>
+        </div>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am currently developing my programming skills
+            and exploring different areas of computer science.
+            My interests include software engineering,
+            machine learning and game development.
+            I am motivated to gain practical experience
+            and continue improving as a developer.
+        </p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">C++</span>
+            <span class="skill">C#</span>
+            <span class="skill">MATLAB</span>
+            <span class="skill">Unity</span>
+            <span class="skill">HTML & CSS</span>
+            <span class="skill">Git</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>Projects & Highlights</h2>
+
+        <div class="project">
+            <h3>Image Classification Research</h3>
+            <p>
+                Investigated GoogLeNet and MobileNet-v2
+                neural networks using MATLAB and computer
+                vision techniques.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Python Data Processing Project</h3>
+            <p>
+                Developed a Python application for processing
+                and organizing structured student data.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Unity Game Development</h3>
+            <p>
+                Explored game development using Unity and C#,
+                implementing gameplay logic and interactions.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>
+            Email:
+            <a href="mailto:aleksandr.statkevic@stud.vilniustech.lt">
+                aleksandr.statkevic@stud.vilniustech.lt
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/AleksandrSt"
+               target="_blank">
+                github.com/AleksandrSt
+            </a>
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Aleksandr Statkevic | Personal CV
+    </footer>
+
+</div>
+
+</body>
+</html>
